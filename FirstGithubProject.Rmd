@@ -1,0 +1,42 @@
+---
+title: "First Github Project"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+
+This is going to be awesome, I can't wait to send a link to this page to my friends on twitter. 
+
+# How many rows and columns?
+
+This is my first line of *R* code.
+
+```{r}
+# This is a comment
+
+# number of rows
+
+nrow(mtcars)
+
+# number of columns
+
+ncol(mtcars)
+
+```
+This data set has `r nrow(mtcars)` rows and `r ncol(mtcars)` columns. 
+
+# summary of data set
+```{r}
+summary(mtcars)
+
+```
+# my first r plot 
+```{r}
+plot(mtcars$mpg,mtcars$hp)
+```
+
